@@ -1,0 +1,45 @@
+{
+  "name": "insiteapps/ecommerce",
+  "description": "Silverstripe Insite Apps (south africa) commonly used ecommerce project modules",
+  "type": "silverstripe-module",
+  "keywords": [
+    "insite"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Itayi Patrick Chitovoro",
+      "email": "patrick@chitosystems.com"
+    }
+  ],
+  "require": {
+    "silverstripe/multiform": "*",
+    "silverstripe-australia/memberprofiles": "*",
+    "zendframework/zend-http": "dev-master",
+    "burnbright/silverstripe-hasonefield": "dev-master",
+    "silvershop/core": "dev-master",
+    "silverstripe/silverstripe-omnipay": "~2.0",
+    "icecaster/versioned-gridfield": "~1.0",
+    "burnbright/silverstripe-listsorter": "~2.0",
+    "burnbright/silverstripe-sqlquerylist": "~1.0",
+    "markguinn/silverstripe-email-helpers": "~1.2",
+    "silvershop/geocoding": "~2.0",
+    "silvershop/discounts": "dev-master",
+    "burnbright/silverstripe-shop-geocoding": "dev-master",
+    "bummzack/silverstripe-omnipay-ui": "dev-master",
+    "markguinn/silverstripe-shop-ajax": "~1.0.0",
+    "omnipay/paypal": "*",
+    "omnipay/manual": "~2.0",
+    "omnipay/dummy": "~2.0",
+    "markguinn/silverstripe-ajax": "dev-master",
+    "guzzle/guzzle": "~3.9",
+    "geoip/geoip": "*",
+    "geoip2/geoip2": "*",
+    "symfony/stopwatch": "*",
+    "symfony/process": "*",
+    "guzzlehttp/guzzle": "*"
+  },
+  "extra": {
+    "installer-name": "insiteapps-ecommerce"
+  }
+}
